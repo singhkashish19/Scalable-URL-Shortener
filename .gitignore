@@ -1,4 +1,4 @@
-# Python
+# Python Cache and Compiled Files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -16,38 +16,125 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+.pytype/
 
-# Virtual environments
+# Virtual Environments
 venv/
 ENV/
 env/
-.venv
+.venv/
+venv.bak/
+env.bak/
+.env.venv
 
-# IDE
+# IDE and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Environment variables
+# Environment Variables & Configuration
 .env
 .env.local
 .env.*.local
+.env.test
+.env.production
 
-# Database
+# Database & Persistence
 *.db
 *.sqlite
 *.sqlite3
+*.sqlitedb
+.cache/
+.redis/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+.nose*
+junit.xml
+coverage.xml
+
+# Logs
+*.log
+logs/
+log/
+
+# OS & Editor Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# Build Artifacts
+*.orig
+*.rej
+*.o
+*.a
+*.la
+*.lo
+*.dylib
+
+# Node/JavaScript (if using frontend tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDE Artifacts
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Performance/Profiling
+.prof
+prof_data/
+
+# MacOS
+.AppleDouble/
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Project Specific
+upload/
+media/
+staticfiles/
+local_settings.py
+
 
 # Application
 logs/
