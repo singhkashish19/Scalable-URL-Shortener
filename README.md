@@ -19,29 +19,6 @@
 
 ---
 
-## 📚 Documentation Hub
-
-This project includes comprehensive documentation organized for different audiences:
-
-### 🏗️ **For Understanding the Architecture** → See [docs/architecture/](./docs/architecture/)
-- **[ARCHITECTURE.md](./docs/architecture/ARCHITECTURE.md)** - Complete system design overview
-- **[DESIGN_PHILOSOPHY.md](./docs/architecture/DESIGN_PHILOSOPHY.md)** - Why each technical choice (Snowflake, PostgreSQL, Redis, etc.)
-- **[SYSTEM_DESIGN.md](./docs/architecture/SYSTEM_DESIGN.md)** - Technical deep-dive with implementation details
-
-### 🎤 **For Interview Preparation** → See [docs/interview/](./docs/interview/)
-- **[QUICK_REFERENCE_CARD.md](./docs/interview/QUICK_REFERENCE_CARD.md)** - 5-minute one-page cheat sheet (PRINT THIS!)
-- **[RECRUITER_INTERVIEW_GUIDE.md](./docs/interview/RECRUITER_INTERVIEW_GUIDE.md)** - 45-page complete guide with 50+ Q&A
-- **[ADVANCED_INTERVIEW_TACTICS.md](./docs/interview/ADVANCED_INTERVIEW_TACTICS.md)** - How to handle difficult questions
-- **[PRESENTATION_SLIDES.md](./docs/interview/PRESENTATION_SLIDES.md)** - 19 slides with talking points for presentations
-
-### 📖 **Project Navigation** 
-- **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - Complete file structure and layer responsibilities
-- **[docs/README.md](./docs/README.md)** - Documentation guide and quick navigation
-
-
-
----
-
 ## 🎯 Executive Summary
 
 This is a **production-ready URL shortening + analytics API** that handles billions of requests at scale. It demonstrates:
